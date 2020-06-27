@@ -14,4 +14,4 @@ include_directories(
   .
   )
 
-add_library(anyoption SHARED ${anyoption_SRCS} ${anyoption_HDRS})
+add_library(anyoption STATIC ${anyoption_SRCS} ${anyoption_HDRS})
