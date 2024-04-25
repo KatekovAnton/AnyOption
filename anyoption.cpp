@@ -61,6 +61,8 @@
 
 #include "anyoption.h"
 
+using namespace std;
+
 AnyOption::AnyOption() { init(); }
 
 AnyOption::AnyOption(int maxopt) { init(maxopt, maxopt); }
